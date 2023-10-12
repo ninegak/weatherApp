@@ -1,0 +1,70 @@
+body {
+  background-color: #121212 !important;
+}
+
+.header {
+  background-color: #212730;
+  border-radius: 20px;
+  color: #fff;
+  text-align: center;
+  margin-top: 5rem;
+  height: 150px;
+}
+
+.btn-search {
+  background-image: linear-gradient(to right, cyan, magenta);
+}
+
+.weather-temp {
+  margin: 0;
+  font-weight: 700;
+  font-size: 4em;
+}
+
+h2.mb-1.day {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  width: 21%;
+  line-height: 1.2;
+  font-size: 1vw;
+  
+}
+
+.day-tab {
+  width: 90%;
+  margin: auto;
+}
+
+.loading {
+  color: #000;
+}
+
+span {
+  height: 35px;
+  display: block;
+  margin-bottom: 5px;
+  height: 35px;
+}
+
+.li_active {
+  background-color: #253d5c;
+  columns: #222831;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.li_active:hover {
+  transform: scale(1.2);
+  transition: transform 0.1s ease;
+}
+
+.text-light {
+  color: green;
+}
+
